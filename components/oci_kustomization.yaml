@@ -10,7 +10,7 @@ spec:
   project: podinfo
   source:
     name: podinfo-deployment-localized
-    repoURL: oci://ghcr.io/mohammad-ammar14
+    repoURL: http://registry.ocm-system.svc.cluster.local:5000/sha-6334247371983071872
     # #https://charts.karpenter.sh/
   # source:
   #   repoURL: https://github.com/mohammad-ammar14/argo-ocm.git
