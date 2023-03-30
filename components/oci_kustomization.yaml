@@ -1,5 +1,5 @@
 apiVersion: argoproj.io/v1alpha1
-kind: Kustomization
+kind: Application
 metadata:
   name: podinfo
   namespace: argocd
@@ -10,7 +10,7 @@ spec:
   project: podinfo
   source:
     name: podinfo-deployment-localized
-    repoURL: oci://ghcr.io/github.com/mohammad-ammar14/argo-ocm.git
+    repoURL: oci://ghcr.io/github.com/mohammad-ammar14/argo-ocm
     # #https://charts.karpenter.sh/
   # source:
   #   repoURL: https://github.com/mohammad-ammar14/argo-ocm.git
